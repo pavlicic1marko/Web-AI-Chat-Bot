@@ -10,7 +10,7 @@ if "messages" not in st.session_state:
 
 prompt = st.chat_input("Ask AI something")
 if prompt:
-    answer = ask_ollama(prompt)
+    answer = ask_ollama(prompt,st.session_state.messages[-1])
     st.session_state.messages.append({"user question":prompt,"AI answer":answer})
     for question_answer in st.session_state.messages:
         st.write(question_answer)
