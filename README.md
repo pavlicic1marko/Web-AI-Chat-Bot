@@ -1,4 +1,5 @@
 
+
 Setup:
 1. install ollama program 
 2. pull version llama3.1
@@ -9,4 +10,11 @@ Setup:
 
 
 Feature:
-1. Chat with AI 
+1. Chat with AI
+2. Use last question as context
+
+
+
+WebApp:
+![image](https://github.com/user-attachments/assets/6388a7f4-9a2a-4297-a241-45897aff3e33)
+
